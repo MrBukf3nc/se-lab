@@ -34,7 +34,7 @@ public class TorpedoStore {
     }
 
     boolean success = false;
-    //Itt van egy szép modosítás
+    
     // simulate random overheating of the launcher bay which prevents firing
  
     double r = generator.nextDouble();
@@ -50,7 +50,7 @@ public class TorpedoStore {
 
     return success;
   }
-
+//Itt egy nagyon csodás modosítás
   public boolean isEmpty(){
     return this.torpedoCount <= 0;
   }
